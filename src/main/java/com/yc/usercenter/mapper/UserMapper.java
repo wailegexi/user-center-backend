@@ -1,11 +1,10 @@
 package com.yc.usercenter.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.apache.ibatis.annotations.Mapper;
+import com.yc.usercenter.model.User;
 
 /**
  * @author : yc.liu
  */
-@Mapper
-public interface UserMapper extends BaseMapper {
+public interface UserMapper extends BaseMapper<User> {
 }
